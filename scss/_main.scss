@@ -1,0 +1,36 @@
+.container {
+  width: 640px;
+  margin: 0 auto;
+  .main {
+    display: flex;
+    align-items: flex-start;
+    .card {
+      margin-right: 20px;
+      .card-body img {
+        margin-right: 20px;
+      }
+      .card-body {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        .card-word {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          h3 {
+            font-size: 20px;
+            line-height: 1.2;
+          }
+          p {
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+  footer p {
+    line-height: 1.5;
+    text-align: center;
+    padding: 48px 0;
+  }
+}
