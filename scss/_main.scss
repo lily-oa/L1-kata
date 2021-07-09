@@ -12,19 +12,7 @@
       .card-body {
         display: flex;
         align-items: flex-start;
-        margin-bottom: 20px;
-        .card-word {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          h3 {
-            font-size: 20px;
-            line-height: 1.2;
-          }
-          p {
-            line-height: 1.5;
-          }
-        }
+        margin-bottom: 24px;
       }
     }
   }
@@ -32,5 +20,15 @@
     line-height: 1.5;
     text-align: center;
     padding: 48px 0;
+  }
+}
+
+.card-word {
+  h3 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  p {
+    line-height: 1.5;
   }
 }
